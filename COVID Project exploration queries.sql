@@ -62,7 +62,7 @@ JOIN CovidVaccinations cvac
 	WHERE cdea.continent IS NOT NULL
 ORDER BY 2,3
 
--- 9. Create CTW
+-- 9. Create CTE
 
 WITH PopvsVac (continent, location, date, population, new_vaccinations, RollingPeopleVaccinated)
 AS
